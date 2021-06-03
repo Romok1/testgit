@@ -12,6 +12,7 @@ pipeline {
         stage('test') {
           steps {
             echo 'i have tested my solution'
+            echo 'im here'
           }
         }
 
